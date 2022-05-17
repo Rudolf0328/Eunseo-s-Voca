@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58FBC62D283378080031FCB1 /* eunseo_vocaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBC62C283378080031FCB1 /* eunseo_vocaApp.swift */; };
+		58FBC62F283378080031FCB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBC62E283378080031FCB1 /* ContentView.swift */; };
+		58FBC6312833780E0031FCB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FBC6302833780E0031FCB1 /* Assets.xcassets */; };
+		58FBC6342833780E0031FCB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FBC6332833780E0031FCB1 /* Preview Assets.xcassets */; };
+		58FBC63E2833780E0031FCB1 /* eunseo_vocaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBC63D2833780E0031FCB1 /* eunseo_vocaTests.swift */; };
+		58FBC6482833780E0031FCB1 /* eunseo_vocaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBC6472833780E0031FCB1 /* eunseo_vocaUITests.swift */; };
+		58FBC64A2833780E0031FCB1 /* eunseo_vocaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBC6492833780E0031FCB1 /* eunseo_vocaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58FBC63A2833780E0031FCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FBC621283378080031FCB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58FBC628283378080031FCB1;
+			remoteInfo = "eunseo voca";
+		};
+		58FBC6442833780E0031FCB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FBC621283378080031FCB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58FBC628283378080031FCB1;
+			remoteInfo = "eunseo voca";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58FBC629283378080031FCB1 /* eunseo voca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eunseo voca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FBC62C283378080031FCB1 /* eunseo_vocaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eunseo_vocaApp.swift; sourceTree = "<group>"; };
+		58FBC62E283378080031FCB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58FBC6302833780E0031FCB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58FBC6332833780E0031FCB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58FBC6392833780E0031FCB1 /* eunseo vocaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eunseo vocaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FBC63D2833780E0031FCB1 /* eunseo_vocaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eunseo_vocaTests.swift; sourceTree = "<group>"; };
+		58FBC6432833780E0031FCB1 /* eunseo vocaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eunseo vocaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FBC6472833780E0031FCB1 /* eunseo_vocaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eunseo_vocaUITests.swift; sourceTree = "<group>"; };
+		58FBC6492833780E0031FCB1 /* eunseo_vocaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eunseo_vocaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FBC626283378080031FCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBC6362833780E0031FCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBC6402833780E0031FCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58FBC620283378080031FCB1 = {
+			isa = PBXGroup;
+			children = (
+				58FBC62B283378080031FCB1 /* eunseo voca */,
+				58FBC63C2833780E0031FCB1 /* eunseo vocaTests */,
+				58FBC6462833780E0031FCB1 /* eunseo vocaUITests */,
+				58FBC62A283378080031FCB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58FBC62A283378080031FCB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FBC629283378080031FCB1 /* eunseo voca.app */,
+				58FBC6392833780E0031FCB1 /* eunseo vocaTests.xctest */,
+				58FBC6432833780E0031FCB1 /* eunseo vocaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58FBC62B283378080031FCB1 /* eunseo voca */ = {
+			isa = PBXGroup;
+			children = (
+				58FBC62C283378080031FCB1 /* eunseo_vocaApp.swift */,
+				58FBC62E283378080031FCB1 /* ContentView.swift */,
+				58FBC6302833780E0031FCB1 /* Assets.xcassets */,
+				58FBC6322833780E0031FCB1 /* Preview Content */,
+			);
+			path = "eunseo voca";
+			sourceTree = "<group>";
+		};
+		58FBC6322833780E0031FCB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58FBC6332833780E0031FCB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58FBC63C2833780E0031FCB1 /* eunseo vocaTests */ = {
+			isa = PBXGroup;
+			children = (
+				58FBC63D2833780E0031FCB1 /* eunseo_vocaTests.swift */,
+			);
+			path = "eunseo vocaTests";
+			sourceTree = "<group>";
+		};
+		58FBC6462833780E0031FCB1 /* eunseo vocaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58FBC6472833780E0031FCB1 /* eunseo_vocaUITests.swift */,
+				58FBC6492833780E0031FCB1 /* eunseo_vocaUITestsLaunchTests.swift */,
+			);
+			path = "eunseo vocaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58FBC628283378080031FCB1 /* eunseo voca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FBC64D2833780E0031FCB1 /* Build configuration list for PBXNativeTarget "eunseo voca" */;
+			buildPhases = (
+				58FBC625283378080031FCB1 /* Sources */,
+				58FBC626283378080031FCB1 /* Frameworks */,
+				58FBC627283378080031FCB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eunseo voca";
+			productName = "eunseo voca";
+			productReference = 58FBC629283378080031FCB1 /* eunseo voca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58FBC6382833780E0031FCB1 /* eunseo vocaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FBC6502833780E0031FCB1 /* Build configuration list for PBXNativeTarget "eunseo vocaTests" */;
+			buildPhases = (
+				58FBC6352833780E0031FCB1 /* Sources */,
+				58FBC6362833780E0031FCB1 /* Frameworks */,
+				58FBC6372833780E0031FCB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FBC63B2833780E0031FCB1 /* PBXTargetDependency */,
+			);
+			name = "eunseo vocaTests";
+			productName = "eunseo vocaTests";
+			productReference = 58FBC6392833780E0031FCB1 /* eunseo vocaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58FBC6422833780E0031FCB1 /* eunseo vocaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FBC6532833780E0031FCB1 /* Build configuration list for PBXNativeTarget "eunseo vocaUITests" */;
+			buildPhases = (
+				58FBC63F2833780E0031FCB1 /* Sources */,
+				58FBC6402833780E0031FCB1 /* Frameworks */,
+				58FBC6412833780E0031FCB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FBC6452833780E0031FCB1 /* PBXTargetDependency */,
+			);
+			name = "eunseo vocaUITests";
+			productName = "eunseo vocaUITests";
+			productReference = 58FBC6432833780E0031FCB1 /* eunseo vocaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58FBC621283378080031FCB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					58FBC628283378080031FCB1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					58FBC6382833780E0031FCB1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 58FBC628283378080031FCB1;
+					};
+					58FBC6422833780E0031FCB1 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 58FBC628283378080031FCB1;
+					};
+				};
+			};
+			buildConfigurationList = 58FBC624283378080031FCB1 /* Build configuration list for PBXProject "eunseo voca" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58FBC620283378080031FCB1;
+			productRefGroup = 58FBC62A283378080031FCB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58FBC628283378080031FCB1 /* eunseo voca */,
+				58FBC6382833780E0031FCB1 /* eunseo vocaTests */,
+				58FBC6422833780E0031FCB1 /* eunseo vocaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58FBC627283378080031FCB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FBC6342833780E0031FCB1 /* Preview Assets.xcassets in Resources */,
+				58FBC6312833780E0031FCB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBC6372833780E0031FCB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBC6412833780E0031FCB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58FBC625283378080031FCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FBC62F283378080031FCB1 /* ContentView.swift in Sources */,
+				58FBC62D283378080031FCB1 /* eunseo_vocaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBC6352833780E0031FCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FBC63E2833780E0031FCB1 /* eunseo_vocaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FBC63F2833780E0031FCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FBC64A2833780E0031FCB1 /* eunseo_vocaUITestsLaunchTests.swift in Sources */,
+				58FBC6482833780E0031FCB1 /* eunseo_vocaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58FBC63B2833780E0031FCB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58FBC628283378080031FCB1 /* eunseo voca */;
+			targetProxy = 58FBC63A2833780E0031FCB1 /* PBXContainerItemProxy */;
+		};
+		58FBC6452833780E0031FCB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58FBC628283378080031FCB1 /* eunseo voca */;
+			targetProxy = 58FBC6442833780E0031FCB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58FBC64B2833780E0031FCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FBC64C2833780E0031FCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58FBC64E2833780E0031FCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eunseo voca/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiwon.eunseo-voca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58FBC64F2833780E0031FCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eunseo voca/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiwon.eunseo-voca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58FBC6512833780E0031FCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiwon.eunseo-vocaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eunseo voca.app/eunseo voca";
+			};
+			name = Debug;
+		};
+		58FBC6522833780E0031FCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiwon.eunseo-vocaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eunseo voca.app/eunseo voca";
+			};
+			name = Release;
+		};
+		58FBC6542833780E0031FCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiwon.eunseo-vocaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eunseo voca";
+			};
+			name = Debug;
+		};
+		58FBC6552833780E0031FCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jiwon.eunseo-vocaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "eunseo voca";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58FBC624283378080031FCB1 /* Build configuration list for PBXProject "eunseo voca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FBC64B2833780E0031FCB1 /* Debug */,
+				58FBC64C2833780E0031FCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FBC64D2833780E0031FCB1 /* Build configuration list for PBXNativeTarget "eunseo voca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FBC64E2833780E0031FCB1 /* Debug */,
+				58FBC64F2833780E0031FCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FBC6502833780E0031FCB1 /* Build configuration list for PBXNativeTarget "eunseo vocaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FBC6512833780E0031FCB1 /* Debug */,
+				58FBC6522833780E0031FCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FBC6532833780E0031FCB1 /* Build configuration list for PBXNativeTarget "eunseo vocaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FBC6542833780E0031FCB1 /* Debug */,
+				58FBC6552833780E0031FCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58FBC621283378080031FCB1 /* Project object */;
+}
