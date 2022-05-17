@@ -1,24 +1,14 @@
-//
-//  ContentView.swift
-//  eunseo voca
-//
-//  Created by 이지원 on 2022/05/17.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            Form {
-                Group {
-                    Text("Hello, world!")
-                    Button("click this button") {
-                        print("click")
-                    }
-                }
-            }.navigationBarTitle("Title")
-        }
+        VStack(spacing: 3) {
+            Color.white.frame(height: 80)
+            HStack(spacing: 3) {
+                Color.white.frame(width: 150)
+                Color.white
+            }.background(.black)
+        }.background(.black)
     }
 }
 
