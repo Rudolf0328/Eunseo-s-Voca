@@ -1,10 +1,28 @@
 import SwiftUI
 
+var wordPair: [String: String] = [:]
+
+func initializeVoca() {
+    wordPair["flower"] = "꽃"
+    wordPair["car"] = "차"
+    wordPair["dog"] = "강아지"
+    wordPair["cat"] = "고양이"
+    wordPair["animal"] = "동물"
+    wordPair["clock"] = "시계"
+    wordPair["water"] = "물"
+    wordPair["frog"] = "개구리"
+    wordPair["fire"] = "불"
+    wordPair["food"] = "음식"
+}
+
 struct ContentView: View {
     
     @State var showMenu = false
     
     var body: some View {
+        
+        // 화면 로딩 될 때마다 initialization 되는 중
+        initializeVoca()
         
         let drag = DragGesture()
                     .onEnded {
@@ -30,7 +48,7 @@ struct ContentView: View {
                 }
                 .gesture(drag)
             }
-            .navigationBarTitle("Side Menu", displayMode: .inline)
+            .navigationBarTitle("Eunseo's Voca", displayMode: .inline)
             .navigationBarItems(leading: (
                 Button(action: {
                     withAnimation {
@@ -42,6 +60,7 @@ struct ContentView: View {
                 }
             ))
         }
+        .navigationViewStyle(.stack)
     }
 }
 
@@ -49,6 +68,11 @@ struct MainView: View {
     @Binding var showMenu: Bool
     
     var body: some View {
+//        
+//        for (key, value) in wordPair {
+//            
+//        }
+//        
         Button(action: {
             withAnimation {
                 self.showMenu = true
