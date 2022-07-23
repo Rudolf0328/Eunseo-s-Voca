@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5823A728284B20B500E6AF21 /* Voca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5823A727284B20B500E6AF21 /* Voca.swift */; };
 		58FBC62D283378080031FCB1 /* eunseo_vocaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBC62C283378080031FCB1 /* eunseo_vocaApp.swift */; };
 		58FBC62F283378080031FCB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBC62E283378080031FCB1 /* ContentView.swift */; };
 		58FBC6312833780E0031FCB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FBC6302833780E0031FCB1 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5823A727284B20B500E6AF21 /* Voca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voca.swift; sourceTree = "<group>"; };
 		58FBC629283378080031FCB1 /* eunseo voca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eunseo voca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FBC62C283378080031FCB1 /* eunseo_vocaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eunseo_vocaApp.swift; sourceTree = "<group>"; };
 		58FBC62E283378080031FCB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5823A726284B20A000E6AF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5823A727284B20B500E6AF21 /* Voca.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		58FBC620283378080031FCB1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		58FBC62B283378080031FCB1 /* eunseo voca */ = {
 			isa = PBXGroup;
 			children = (
+				5823A726284B20A000E6AF21 /* Model */,
 				58FBC62C283378080031FCB1 /* eunseo_vocaApp.swift */,
 				58FBC62E283378080031FCB1 /* ContentView.swift */,
 				58FBC6302833780E0031FCB1 /* Assets.xcassets */,
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5823A728284B20B500E6AF21 /* Voca.swift in Sources */,
 				58FBC62F283378080031FCB1 /* ContentView.swift in Sources */,
 				58FBC62D283378080031FCB1 /* eunseo_vocaApp.swift in Sources */,
 			);
